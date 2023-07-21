@@ -50,9 +50,9 @@ Projeto Python de uma API que gerencia um pequeno banco de dados com informaçõ
   {
    "total_usuarios": _string_ com o total de usuários,
    "media_idade": _string_ com a média de idade dos usuários cadastrados,
-   "mulheres":_string_ com informação do total de usuários que se identificam como mulheres.
-   "homens": _string_ com informação do total de usuários que se identificam como homens.
-   "nao-binarios_outros": _string_ com informação do total de usuários que se identificam desse modo.
+   "mulheres":_string_ com informação do total de usuários que se identificam como mulheres,
+   "homens": _string_ com informação do total de usuários que se identificam como homens,
+   "nao-binarios_outros": _string_ com informação do total de usuários que se identificam desse modo,
   }
   ```
 * Os dados retornados podem ser extraídos usando a biblioteca `json`.
