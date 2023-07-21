@@ -1,4 +1,4 @@
-# API de Calculadora
+# API com Web Scraper
 
 Python project of an API that manages a small Database with users information and a web scraping application that will access the API and get the data.
 (PT-BR)
@@ -28,7 +28,7 @@ Projeto Python de uma API que gerencia um pequeno banco de dados com informaçõ
 
 #### Acessando a API fora do Web Scraper:
 
-* Após rodar o comando inicial, a URL a ser utilizada nos _requests_ será `http://127.0.0.1:8000`. A API aceita _requests_ no método _POST_ e _GET_ e os valores devem ser passados em uma variável json. Use método _GET_ para buscar as informações de usuários e o _POST_ para inserior informações no banco de dados, por exemplo:
+* Após rodar o comando inicial, a URL a ser utilizada nos _requests_ será `http://127.0.0.1:8000`. A API aceita _requests_ no método _POST_ e _GET_ e os valores devem ser passados em uma variável json. Use método _GET_ para buscar as informações de usuários e o _POST_ para inserir informações no banco de dados, por exemplo:
 
 * Inserindo dados no banco de dados:
   - `resp = post("http://127.0.0.1:8000/novo", json={"nome": 'nome_usuario', "nascimento": "dd/mm/aaaa", "cpf": "xxxxxxxxxxx", "genero": "F"})`
